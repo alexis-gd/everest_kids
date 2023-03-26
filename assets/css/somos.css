@@ -1,0 +1,85 @@
+.btn-somos {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    -webkit-box-shadow: inset 0px -30px 13px -30px rgb(0 0 0 / 30%);
+    -moz-box-shadow: inset 0px -30px 13px -30px rgb(0 0 0 / 30%);
+    box-shadow: inset 0px -30px 13px -30px rgb(0 0 0 / 30%);
+}
+
+.span-somos,
+.span-oferta {
+    padding-right: 20%;
+}
+
+.id-somos-mision,
+.id-somos-vision,
+.id-somos-filosofia {
+    position: absolute;
+    width: 80%;
+}
+
+.id-somos-mision,
+.id-somos-filosofia {
+    left: 43%;
+    top: -50%;
+}
+
+.id-somos-vision {
+    left: 43%;
+    top: -30%;
+}
+
+.nav-link {
+    padding: 0;
+}
+
+.bg-somos,
+.tab-somos {
+    background: linear-gradient(180deg, rgba(217, 217, 217, 1) 0%, rgba(245, 245, 245, 1) 100%);
+}
+
+.bg-somos h1 {
+    color: #1B2D53;
+    font-size: calc(3rem + 1vw);
+}
+
+.bg-somos p {
+    color: #495057;
+    font-size: 1.15rem;
+    line-height: 1.4rem;
+    margin-bottom: 0;
+}
+
+.col-somos {
+    text-align: justify;
+    font-size: 1.15rem;
+    align-self: center;
+    padding: 1.5rem 1.5rem 0rem 1.5rem;
+    overflow: hidden;
+}
+
+.col-somos:last-of-type {
+    padding: 0rem 1.5rem 0rem 1.5rem;
+}
+
+.col-somos svg {
+    max-height: 350px;
+}
+
+.selected {
+    opacity: 0;
+    transition: .3s;
+}
+
+.selected-2 {
+    background-color: #d9d9d9!important;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.fade {
+    transition: opacity 0s linear;
+}

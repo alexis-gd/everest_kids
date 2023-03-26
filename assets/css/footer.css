@@ -1,0 +1,238 @@
+.contacto {
+    padding: 1rem
+}
+
+.info-contacto {
+    color: #1B2D53;
+}
+
+.info-contacto>div>p:first-of-type {
+    font-size: calc(1.5rem + .4vw);
+    font-weight: 900;
+}
+
+.info-8,
+.info-10 {
+    display: flex;
+    align-items: center;
+    padding: .5rem .1rem;
+}
+
+.info-8 p,
+.info-10 p {
+    margin-bottom: 0;
+}
+
+.info-8 img,
+.info-10 img {
+    margin: 0 .4rem 0 0;
+    width: 20px;
+}
+
+.info-10 {
+    font-size: calc(1.1rem + .4vw);
+    font-weight: 700;
+}
+
+.info-8 {
+    font-size: calc(.85rem + .4vw);
+}
+
+.mapa-contacto {
+    text-align: center;
+    align-self: center;
+    padding-right: 0;
+}
+
+.mapa-contacto img {
+    max-width: 90%;
+}
+
+
+/* Bolsa de trabajo */
+
+.bolsa-trabajo {
+    display: flex;
+    background-color: #FBB336;
+    background-image: url(../multimedia/icons/trabajador-fondo.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-content: center;
+    /* height: 120px; */
+    transition: all ease 1s;
+}
+
+.bt-img {
+    width: 100%;
+}
+
+.bt-txt {
+    align-self: center;
+    cursor: pointer;
+    user-select: none;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.bt-h4 {
+    text-align: center;
+    color: #1B2D53;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.bt-h5 {
+    color: #1B2D53;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+.bt-opciones {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .30);
+    padding: 1rem;
+}
+
+.bt-opciones-p {
+    color: #1B2D53;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.bt-opciones-p2 {
+    color: #495057;
+    margin-bottom: 0;
+}
+
+.bt-form {
+    width: 100%;
+}
+
+.mw-bt {
+    max-width: 500px;
+    margin: 0;
+}
+
+.tc {
+    text-align: center;
+}
+
+.asfe {
+    align-self: flex-end;
+}
+
+.asc {
+    align-self: center;
+}
+
+.custom-radio {
+    margin-top: .5rem;
+}
+
+.custom-control-label {
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.shadow-bt {
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, .30);
+}
+
+.btn-bt {
+    font-size: calc(.85rem + .4vw);
+    padding: .8rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    background-color: #1B2D53;
+    border-radius: 10px 10px 10px 10px;
+    transition: .3s;
+    letter-spacing: 1px;
+    width: 50%;
+}
+
+.btn-bt:hover {
+    color: #fff;
+    background-color: #10192e;
+}
+
+
+/* Visitas */
+
+.visitas {
+    justify-content: center;
+    background-color: #1B2D53;
+    padding-top: 1rem;
+    position: relative;
+}
+
+.box-contador {
+    margin: 0 1rem;
+}
+
+.txt-visitas {
+    text-align: center;
+    color: #FFFFFF;
+    margin: .5rem 0;
+}
+
+.contador {
+    background-color: #324263;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: .5rem;
+    padding: .2rem 2rem;
+    border-radius: 1rem;
+    margin: 0;
+    min-width: 15rem;
+}
+
+.box-derechos {
+    color: #FFFFFF;
+    text-align: center;
+    margin: 1rem 0 1.5rem 0;
+}
+
+@media (max-width: 767px) {
+    .id-somos-mision {
+        left: 45%;
+        top: -30%;
+    }
+    .id-somos-vision {
+        left: 49%;
+        top: -10%;
+    }
+    .id-somos-filosofia {
+        left: 49%;
+        top: -30%;
+    }
+    .nav-link {
+        margin-bottom: .3rem !important;
+        border-color: red;
+    }
+    .btn-somos {
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+    .selected-2 {
+        background-color: #ededed !important;
+    }
+    .col-oferta-1 {
+        border-radius: 1rem 1rem 0 0;
+    }
+    .col-oferta-1-img {
+        border-radius: 1rem 1rem 0 0;
+    }
+    .col-oferta-2 {
+        border-radius: 0 0 1rem 1rem;
+    }
+}
